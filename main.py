@@ -201,9 +201,6 @@ if __name__ == "__main__":
     # 传入地区获取天气信息
     region = config["region"]
     weather, temp, wind_dir = get_weather(region)
-    note_ch = config["note_ch"]
-    note_en = config["note_en"]
-    if note_ch == "" and note_en == "":
         # 获取词霸每日金句
     # 公众号推送消息
     for user in users:
